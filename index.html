@@ -826,9 +826,9 @@
                     loadingOverlay.classList.add('visible'); 
 
                     const a = document.createElement('a');
-                    // Point the href directly to the uploaded PDF file
-                    a.href = 'htmlCode.pdf'; // This assumes 'htmlCode.pdf' is accessible in the same context
-                    a.download = 'Rohan_L_Malodia_CV.pdf'; // Name for the downloaded file
+                   
+                    a.href = 'RohanMalodia CV.pdf'; 
+                    a.download = 'Rohan_L_Malodia_CV.pdf';
                     document.body.appendChild(a);
                     a.click();
                     document.body.removeChild(a);
